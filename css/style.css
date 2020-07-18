@@ -1,0 +1,256 @@
+html, body {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list-group-item {
+    padding: 2px;
+    padding-left: 15px;
+
+}
+ul {
+    list-style: none;
+}
+
+
+
+a  {
+
+    text-decoration: none;
+}
+a:hover  {
+    text-decoration: none;
+}
+#record {
+    color:#000;
+}
+#record:hover{
+    opacity:50;
+    color:red;
+    cursor: pointer;
+
+}
+
+a:active {
+    color:red;
+}
+a:hover {
+    opacity: 0.8;
+}
+
+.bgc {
+background-image: url("/Images/Desert.jpg") ;
+
+}
+.customDiv{
+    margin:10px;
+    min-height:50px;
+    background-color:silver;
+    text-align:center;
+    font-size:large;
+    padding:10px;
+}
+
+.grid_container {
+    display:grid;
+    grid-gap: 5px;
+    grid-template-columns: 15% 64% auto;
+    grid-template-rows: auto;
+    text-align:center;
+    min-height: 1000px;
+}
+
+.grid_container_expense {
+    display:grid;
+    grid-gap: 5px;
+    grid-template-columns: 15% auto 20%;
+    grid-template-rows: 50px auto;
+    text-align:center;
+    min-height: 1000px;
+}
+
+.navbar {
+
+    grid-column: 1/ span 4;
+    height:50px;
+    text-align: center;
+    padding: 0;
+}
+
+.left_menu {
+    grid-column: 1/  2;
+    width: 15%;
+    height: 100%;
+
+}
+
+.content {
+    grid-column: 2/3;
+}
+.details {
+    grid-column: 3/4;
+    height: 100%;
+    text-align: center;
+
+}
+.before {
+    grid-column:4/5;
+    height: 100%;
+    text-align: center;
+}
+
+.preMonth {
+    grid-column: 2/3;
+}
+.info {
+    grid-column: 3/4;
+    height: 100%;
+    text-align: center;
+
+}
+.curMonth {
+    grid-column:4/5;
+    height: 100%;
+    text-align: center;
+}
+
+.navbar-nav mr-auto {
+    text-align: center;
+}
+#nav {
+    position: fixed;
+    text-align: right;
+    float:right;
+}
+#nav a {
+    color:red;
+    text-decoration: none;
+}
+
+
+
+/*Planner/Calendar*/
+
+.grid_container_planner {
+    display:grid;
+    grid-gap: 5px;
+    grid-template-columns: 15% auto 20%;
+    grid-template-rows: auto;
+    text-align:center;
+    min-height: 1000px;
+}
+
+.grid_reg_log {
+    display:grid;
+    grid-template-columns: auto 20px auto;
+    grid-template-rows: 50px 350px auto;
+    grid-gap: 5px;
+    text-align:center;
+    margin:0 auto;
+}
+.grid_reg_log .form {
+    text-align: center;
+    margin:0 auto;
+    background-color: #fff;
+}
+.grid_index {
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows:1000px 1000px 300px ;
+    padding: 10px;
+}
+.about, .functions, .contact {
+
+    text-align: center;
+}
+.form {
+    grid-column: 1/ span 4;
+}
+/*KOMENTARZE, NOTATKI hover*/
+.transaction:hover {
+    color: #3c7a21;
+    cursor: pointer;
+}
+
+/*icons*/
+
+.fa-user-circle{
+    color:#6EA4CA;
+    width: 50px;
+    height: 50px;
+}
+
+/*LOGIN and REGISTER FORM*/
+/*.form {*/
+/*    position: relative;*/
+
+/*    height: 100%;*/
+/*    margin: 0 auto ;*/
+/*    max-width: 50%;*/
+/*    text-align: center;*/
+/*    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0*/
+/*    rgba(0, 0,0,0.24);*/
+/*}*/
+
+/*.form input {*/
+/*    font-family: "Roboto", sans-serif;*/
+/*    width: 310px;*/
+/*    height: 50px;*/
+/*    border: 1px solid #dee0e4;*/
+/*    margin-bottom: 20px;*/
+/*    padding: 0 15px;*/
+
+/*}*/
+/*.form input[type="submit"] {*/
+/*    font-family: "Roboto", sans-serif;*/
+/*    width: 100%;*/
+/*    padding: 15px;*/
+/*    margin-top: 20px;*/
+/*    background-color: #3274d6;*/
+/*    border: 0;*/
+/*    cursor: pointer;*/
+/*    font-weight: bold;*/
+/*    color: #ffffff;*/
+/*    transition: background-color 0.2s;*/
+/*}*/
+/*.form button:hover,.form button:active,.form button:focus {*/
+/*    background: #43A047;*/
+/*}*/
+
+/*.form p {*/
+/*    font-size: 12px;*/
+/*}*/
+/*.form a {*/
+/*    color: #0c3c60;*/
+/*    text-decoration: none;*/
+/*}*/
+/*input[type=checkbox]{*/
+/*    display:none;*/
+/*}*/
+
+
+/* label:hover, li:hover {*/
+/*     opacity: 0.6;*/
+/* }*/
+ input[type="checkbox"]:checked +  label{
+    color: #00e;
+     opacity: 0.5;
+}
+
+
+#register {
+    text-decoration: none;
+    color:#007bff;
+    font-size:13px;
+}
+
+tr:hover {
+
+    cursor: pointer;
+    color:rgba(0,0,0,1);
+    background-color: rgba(0,0,0,0.1);
+}
+

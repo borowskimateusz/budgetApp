@@ -1,0 +1,128 @@
+/*!*Colors in this website*/
+.colors {
+    background-color: #3c493f;
+    color:#7e8d85;
+    color:#b3bfb8;
+    color:#f0f7f4;
+    color:#a2e3c4;
+}
+
+
+html, body {
+    font-family: arial;
+    min-height: 1000px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+
+}
+li {
+    padding: 5px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+a:hover {
+    opacity: 0.8;
+}
+table, th, tr, td {
+    border-collapse: collapse;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:14px;
+    padding: 0 5px;
+
+
+
+}
+th {
+
+}
+
+th {
+
+    background-color: #B4C6E7;
+    border:1px solid #0f0f0f;
+    width: auto;
+}
+tr {
+    height: 30px;
+    border:1px solid green;
+}
+td {
+
+    border:1px solid #0f0f0f;
+    background-color: #D9E1F2;
+}
+
+.grid_container {
+    display:grid;
+    grid-gap: 10px;
+    grid-template-columns: 150px auto ;
+    grid-template-rows: 50px auto 15%;
+    background-color: #C4BBB8;
+    text-align:center;
+    min-height: 1000px;
+
+}
+.navbar {
+    grid-column: 1 /span 4;
+    margin: 0 auto;
+}
+.navtop li {
+    float:left;
+}
+
+.left_menu ul {
+    width: 100%;
+    font-size: 20px;
+}
+
+
+/*Planner/Calendar*/
+
+.grid_container_planner {
+    display:grid;
+    grid-gap:10px;
+    background-color: #C4BBB8;
+    text-align:center;
+    grid-template-columns: 150px auto;
+    grid-template-rows:50px auto;
+    min-height: 1000px;
+}
+
+.grid_container_planner #navbar, #left_menu, #paid , #to_pay, #standing_orders {
+
+    text-align:center;
+
+}
+.grid_container_planner #to_pay, #standing_orders, #paid {
+    margin:0 auto;
+}
+
+.grid_container_planner #navbar {
+    grid-column: 1/ span 4;
+    margin: 0 auto;
+}
+/*.piechart {*/
+/*    min-height: 400px;*/
+/*    height: auto;*/
+/*    width: 500px;*/
+/*    background: none;*/
+/*}*/
+
+/*KOMENTARZE, NOTATKI hover*/
+
+h1:hover {
+
+}
