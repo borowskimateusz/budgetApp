@@ -31,6 +31,7 @@ if (!isset($_SESSION['loggedin'])) {
                 <li class="nav-item"><a class="nav-link" href="income.php"></i>Przychody</a></li>
                 <li class="nav-item"><a class="nav-link" href="planner.php"></i>Kalendarz</a></li>
                 <li class="nav-item"><a class="nav-link" href="../dbbudget.php"">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../dbbudget.php"">FAQ</a></li>
                 <li class="nav-item"><a class="nav-link" href="contanct.php">Kontakt</a></li>
             </ul>
         </nav>
@@ -112,5 +113,3 @@ if (!isset($_SESSION['loggedin'])) {
 </div>
 </body>
 </html>
-
-
